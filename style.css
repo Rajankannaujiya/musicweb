@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ysabeau+SC&display=swap');
+
+body {
+    background-color: orange;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+nav ul {
+    position: sticky;
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    height: 60px;
+    align-items: center;
+    z-index: 1;
+}
+
+nav ul li {
+    margin: 0px 40px;
+    padding: 4px 10px;
+}
+
+.brand img {
+    margin: 0px 6px;
+    padding: 0px 2px;
+    height: 60px;
+    width: 55px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+
+}
+
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: url('image1/pexels-photo-3721941.mmm.jpeg');
+    background-repeat: no-repeat;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+}
+
+.songitemcontainer {
+    margin-top: 26px;
+}
+
+.songitem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.songitem span i {
+    margin: 0 15px;
+}
+
+.songitem img {
+    height: 40px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#Myprogressbar {
+    height: 70vh;
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons {
+    margin-bottom: 12px;
+}
+
+.icons i {
+    cursor: pointer;
+    padding: 0px 15px;
+}
+
+.bottom {
+    position: sticky;
+    height: 75px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    z-index: 1;
+}
+
+.timestamp {
+    margin: 0 15px;
+    /* cursor: pointer; */
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songinfo {
+    position: absolute;
+    left: 10vw;
+    margin-top: 24px;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
