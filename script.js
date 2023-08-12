@@ -2,7 +2,7 @@ console.log("welcome to Mymusic");
 
 // initialising the variable
 // let songindex = 0;
-let audioElement = new Audio('song/0.mp3');
+let audioElement = new Audio('0.mp3');
 let masterplay = document.getElementById('masterplay');
 let myprogressbar = document.getElementById('Myprogressbar');
 let gif = document.getElementById('gif');
