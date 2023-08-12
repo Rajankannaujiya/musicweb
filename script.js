@@ -8,14 +8,14 @@ let myprogressbar = document.getElementById('Myprogressbar');
 let gif = document.getElementById('gif');
 let songitem = Array.from(document.getElementsByClassName('songitem'));
 let song = [
-    { songname: "let me love you", filePath: "song/0.mp3", coverPath: "image1/th...jpeg" },
-    { songname: "tum hi ho", filePath: "song/1.mp3", coverPath: "image1/cover.jpeg" },
-    { songname: "baaton ko teri", filePath: "song/4.mp3", coverPath: "image1/cover2.jpeg" },
-    { songname: "Sawan Aaya hai", filePath: "song/3.mp3", coverPath: "image1/cover2.jpeg" },
-    { songname: "jiya", filePath: "song/2.mp3", coverPath: "image1/cover3.jpeg" },
-    { songname: "let me love you", filePath: "song/5.mp3", coverPath: "image1/cover2.jpeg" },
-    { songname: "let me love you", filePath: "song/6.mp3", coverPath: "image1/cover2.jpeg" },
-    { songname: "let me love you", filePath: "song/7.mp3", coverPath: "image1/cover.jpeg" },
+    { songname: "let me love you", filePath: "0.mp3", coverPath: "th...jpeg" },
+    { songname: "tum hi ho", filePath: "1.mp3", coverPath: "cover.jpeg" },
+    { songname: "baaton ko teri", filePath: "4.mp3", coverPath: "cover2.jpeg" },
+    { songname: "Sawan Aaya hai", filePath: "3.mp3", coverPath: "cover2.jpeg" },
+    { songname: "jiya", filePath: "2.mp3", coverPath: "cover3.jpeg" },
+    { songname: "let me love you", filePath: "5.mp3", coverPath: "cover2.jpeg" },
+    { songname: "let me love you", filePath: "6.mp3", coverPath: "cover2.jpeg" },
+    { songname: "let me love you", filePath: "7.mp3", coverPath: "cover.jpeg" },
 ]
 songitem.forEach((element, i) => {
     console.log(element, i);
